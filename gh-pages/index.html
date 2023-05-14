@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <!-- Базовое отображение вообще всего -->
+    <meta charset="UTF-8">
+    <title>Название</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="static/styles/style.css">
+
+    <!-- Отображение на мобилках -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Подключение к CSS библиотекам -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <!--Чтобы на всяком старье тоже открывалось (библиотека для Java)-->
+    <script src="js/modernizr.js"></script>
+
+    <!-- Отображение иконки на разных устройствах-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/16.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+
+<body id="top">
+
+    <!-- Экран загрузки -->
+    <div id="Загрузка">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Навигац. панель верхняя -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a href="/">
+                <img src="images/16.png" alt="Homepage">
+            </a>
+        </div>
+
+        <div class="header-content">
+
+            <nav class="row header-nav-wrap">
+                <ul class="header-nav">
+                    <li><a class="smoothscroll" href="#Главная" title="Главная">Главная</a></li>
+                    <li><a class="smoothscroll" href="#about" title="Идея">Идея</a></li>
+                    <li><a class="smoothscroll" href="#services" title="Специальности">Специальности</a></li>
+                    <li><a class="smoothscroll" href="#portfolio" title="Обустройство">Обустройство</a></li>
+                    <li><a class="smoothscroll" href="#testimonials" title="Авторы">Авторы</a></li>
+                </ul>
+            </nav> <!-- конец тэга (не забыть добавить остатки) -->
+        </div> <!-- конец панели -->
+
+
+        <!-- тут меню, хз почему не отображется (ПОМЕНЯТЬ НЕ ЗАБЫТЬ!!!!!!) -->
+        <a class="header-menu-toggle" href="#0"><span>Меню</span></a>
+
+    </header>
+
+    <!-- Тут крутая обложка -->
+    <section id="Главная" class="s-hero target-section" data-parallax="scroll"
+        data-image-src="https://sun9-68.userapi.com/impg/SO6KhU9p9k0gT40V1MTiWXX83Vp3bVIfjQiwTA/eBBO5V8kNfo.jpg?size=2500x1064&quality=95&sign=cbe30ec0601dd262d60829bbd0fed310&type=album"
+        data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="row hero-content">
+
+            <div class="column large-full">
+
+                <h1>
+                    Будущее <br>
+                    в твоих руках <br>
+                </h1>
+            </div>
+
+        </div> <!-- end hero-content -->
+
+        <div class="hero-scroll">
+            <a href="#about" class="scroll-link smoothscroll">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M12 24l-8-9h6v-15h4v15h6z" />
+                </svg>
+            </a>
+        </div> <!-- end hero-scroll -->
+
+    </section> <!-- end s-hero -->
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="s-about__section s-about__section--profile">
+
+            <div class="right-vert-line"></div>
+
+            <div class="row">
+                <div class="column large-6 medium-8 tab-full">
+
+                    <div class="section-intro" data-num="01" data-aos="fade-up">
+                        <h3 class="subhead">Идея</h3>
+                        <h1 class="display-1">Развитие карьеры требует планирования</h1>
+                    </div>
+
+                    <div class="profile-pic" data-aos="fade-up">
+                        <img src="images/profile-pic.jpg"
+                            srcset="images/profile-pic.jpg 1x, images/profile-pic@2x.jpg 2x" alt="">
+                    </div>
+
+                    <h3 data-aos="fade-up">Идея</h3>
+
+                    <p data-aos="fade-up">
+                        Тут будет введение. Небольшой текст, буквально 1-2 абзаца. Актуальность проекта.
+                    </p>
+
+                </div>
+            </div>
+
+        </div> <!-- end s-about__section--profile -->
+
+        <div class="s-about__section">
+
+            <div class="row">
+                <div class="column">
+                    <h3 data-aos="fade-up">тут еще можно всякой инфы налепить про актуальность и все такое</h3>
+                </div>
+            </div>
+
+            <div class="row block-large-1-2 block-900-full work-positions">
+
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">Инфа</span>
+                                <span class="position__pos">блабла</span>
+                            </h6>
+                            <div class="position__timeframe">
+
+                            </div>
+                        </div>
+
+                        <p>
+                            блаблабла
+                        </p>
+                    </div>
+                </div> <!-- end column -->
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">Инфа тоже</span>
+                                <span class="position__pos">хочу чай</span>
+                            </h6>
+                            <div class="position__timeframe">
+
+                            </div>
+                        </div>
+
+                        <p>
+                            блаблабла
+                        </p>
+                    </div>
+                </div> <!-- end column -->
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">И тут инфа</span>
+                                <span class="position__pos">блабла</span>
+                            </h6>
+                            <div class="position__timeframe">
+
+                            </div>
+                        </div>
+
+                        <p>
+                            Хз что еще написать
+                        </p>
+                    </div>
+                </div> <!-- end column -->
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">Ну и тут тоже инфа</span>
+                                <span class="position__pos">вот кароче</span>
+                            </h6>
+                            <div class="position__timeframe">
+
+                            </div>
+                        </div>
+
+                        <p>
+                            Ну вы поняли с:
+                        </p>
+                    </div>
+                </div> <!-- end column -->
+
+            </div> <!-- work positions -->
+
+        </div> <!-- end s-about__section -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services target-section h-dark-bg">
+
+        <div class="row s-services__content">
+
+            <div class="vert-line"></div>
+
+            <div class="column large-6 s-services__leftcol">
+                <div class="section-intro" data-num="02" data-aos="fade-up">
+                    <h3 class="subhead">Специальности</h3>
+
+                    <h1 class="display-1">
+                        Специальности которые блаблабла
+                    </h1>
+                </div>
+
+                <p class="lead" data-aos="fade-up">
+                    Тут прям офигеть важная инфа какая нибудь про то где мы эту инфу нашли и я оставлю ссылку на какой
+                    нибудь файл с сайта финашки, где вся эта инфа про специальности прописана. Нужно еще разделить
+                    отдельно по направлениям: ФМ, ГМУ, УБ и что там еще есть на бакалавриате ВШУ. Я сделаю побольше
+                    таких синих блоков со всеми направлениями.
+                </p>
+            </div> <!-- end  s-services--leftcol -->
+
+            <div class="column large-6">
+                <ul class="services-list" data-aos="fade-up">
+                    <li class="services-list__item is-active">
+                        <div class="services-list__item-header">
+                            <h5>Финансовый менеджер</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                инфа блаблабла про эту специальность
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Инвестиционный аналитик например</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                блаблба
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Специальность 3</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                аооаоаао
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Специальность 4</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                оаоаоа
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Специальность 5</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                дарова
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Специальность 6</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                хочу пиццу
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                </ul> <!-- end services-list -->
+            </div>
+
+        </div> <!-- s-services__content -->
+
+    </section> <!-- end s-services -->
+    <section id="services" class="s-services target-section h-dark-bg">
+
+        <div class="row s-services__content">
+
+            <div class="vert-line"></div>
+
+            <div class="column large-6 s-services__leftcol">
+                <div class="section-intro" data-num="03" data-aos="fade-up">
+                    <h3 class="subhead">Специальности</h3>
+
+                    <h1 class="display-1">
+                        Тоже самое
+                    </h1>
+                </div>
+
+                <p class="lead" data-aos="fade-up">
+                    ну вы поняли. Сверху например были специальности с финансового менеджмента, тут например с гму, чуть
+                    ниже сделаем про уб и тд. И сайт не будет выглядеть пустым с: Или можем что-то другое придумать, будет круто если идею подкинете 
+                </p>
+            </div> <!-- end  s-services--leftcol -->
+
+            <div class="column large-6">
+                <ul class="services-list" data-aos="fade-up">
+                    <li class="services-list__item is-active">
+                        <div class="services-list__item-header">
+                            <h5>Специальность 1</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                аоаоаоао
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Специальность 2</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                оаоаоаоа
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Специальность 3</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                аоаоаоао
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Специальность 4</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                оаоаоао
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Специальность 5</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                оаоаоаоа
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Специальность 6</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                аоаоаоао
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                </ul> <!-- end services-list -->
+            </div>
+
+        </div> <!-- s-services__content -->
+
+    </section> <!-- end s-services -->
+
+    <!-- portfolio
+    ================================================== -->
+    <section id="portfolio" class="s-portfolio target-section">
+
+        <div class="row s-portfolio__header">
+            <div class="column large-6 medium-8 tab-full">
+                <div class="section-intro" data-num="04" data-aos="fade-up">
+                    <h3 class="subhead">Обустройство</h3>
+                    <h1 class="display-1">
+                        Тут можно инфу про то, куда устроиться можно или что-то такое полезное тоже кароче (тыкни на картинку)
+                    </h1>
+                </div>
+            </div>
+        </div> <!-- s-porfolio__header -->
+
+        <div class="row s-porfolio__list block-large-1-2 block-tab-full collapse">
+
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-windows-in-the-city.jpg"
+                            title="" data-size="1050x700">
+                            <img src="images/portfolio/windows-in-the-city.jpg"
+                                srcset="images/portfolio/windows-in-the-city.jpg 1x, images/portfolio/windows-in-the-city@2x.jpg 2x"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Компания</div>
+                        <h4 class="folio-item__title">Специальность +инфа чуток</h4>
+                    </div>
+                
+                    <div class="folio-item__caption">
+                        <p>Инфа про эту специальность в этой компании</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-building-blocks.jpg"
+                            title="" data-size="1050x700">
+                            <img src="images/portfolio/building-blocks.jpg"
+                                srcset="images/portfolio/building-blocks.jpg 1x, images/portfolio/building-blocks@2x.jpg 2x"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Компания</div>
+                        <h4 class="folio-item__title">Специальность</h4>
+                    </div>
+                    <div class="folio-item__caption">
+                        <p>Инфа</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-shout-jump.jpg"
+                            Title="" data-size="1050x700">
+                            <img src="images/portfolio/shout-and-jump.jpg"
+                                srcset="images/portfolio/shout-and-jump.jpg 1x, images/portfolio/shout-and-jump@2x.jpg 2x"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Компания</div>
+                        <h4 class="folio-item__title">Специальность</h4>
+                    </div>
+                    <div class="folio-item__caption">
+                        <p>Инфа</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-sand-dunes.jpg"
+                            title="" data-size="1050x700">
+                            <img src="images/portfolio/sand-dunes.jpg"
+                                srcset="images/portfolio/sand-dunes.jpg 1x, images/portfolio/sand-dunes@2x.jpg 2x"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Компания</div>
+                        <h4 class="folio-item__title">Специальность</h4>
+                    </div>
+                    <div class="folio-item__caption">
+                        <p>Инфа</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-woodcraft.jpg"
+                            title="" data-size="1050x700">
+                            <img src="images/portfolio/woodcraft.jpg"
+                                srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Компания</div>
+                        <h4 class="folio-item__title">Специальность</h4>
+                    </div>
+                    <div class="folio-item__caption">
+                        <p>Инфа</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-lamp.jpg" title=""
+                            data-size="1050x700">
+                            <img src="images/portfolio/lamp.jpg"
+                                srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Компания</div>
+                        <h4 class="folio-item__title">Специальность</h4>
+                    </div>
+                    <div class="folio-item__caption">
+                        <p>Инфа</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+
+        </div> <!-- folio-list -->
+
+    </section> <!-- end portfolio -->
+
+
+    <!-- testimonials
+    ================================================== -->
+
+    <section id="testimonials" class="s-testimonials">
+
+        <div class="row collapse">
+
+            <div class="column large-full">
+
+                <div class="testimonial-slider" data-aos="fade-up">
+
+                    <div class="testimonial-slider__slide">
+                        <p>
+                            
+                        </p>
+                        <div class="testimonial-slider__author">
+                            <img src="https://sun9-35.userapi.com/impg/SjbXw3EiijPqGpNWbiBMJiJrR-3g4PeehiAS_A/dXp2NGR80bI.jpg?size=348x340&quality=95&sign=e6461251bb7a6bb58615e4c051dec1b3&type=album"
+                                alt="Author image" class="testimonial-slider__avatar">
+                            <cite class="testimonial-slider__cite">
+                                <strong>Валиуллина Валерия</strong>
+                                <span>Технический специалист</span>
+                            </cite>
+                        </div>
+                    </div> <!-- end testimonials__slide -->
+
+                    <div class="testimonial-slider__slide">
+                        <p>
+                            
+                        </p>
+                        <div class="testimonial-slider__author">
+                            <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonial-slider__avatar">
+                            <cite class="testimonial-slider__cite">
+                                <strong>Макаркина Любовь</strong>
+                                <span>Планировщик, риск-менеджер</span>
+                            </cite>
+                        </div>
+                    </div> <!-- end testimonials__slide -->
+
+                    <div class="testimonial-slider__slide">
+                        <p>
+                            
+                        </p>
+                        <div class="testimonial-slider__author">
+                            <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonial-slider__avatar">
+                            <cite class="testimonial-slider__cite">
+                                <strong>Бахарчиева Альбина</strong>
+                                <span>Копирайтер, фотограф</span>
+                            </cite>
+                        </div>
+                    </div> <!-- end testimonials__slide -->
+
+                    <div class="testimonial-slider__slide">
+                        <p>
+                            
+                        </p>
+                        <div class="testimonial-slider__author">
+                            <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonial-slider__avatar">
+                            <cite class="testimonial-slider__cite">
+                                <strong>Гаглоева Альбина</strong>
+                                <span>Копирайтер</span>
+                            </cite>
+                        </div>
+                    </div> <!-- end testimonials__slide -->
+
+                </div> <!-- end testimonial slider -->
+
+            </div> <!-- end column -->
+
+        </div> <!-- end row -->
+
+    </section> <!-- end s-testimonials -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer h-dark-bg">
+
+        <div class="right-vert-line"></div>
+
+        <div class="row s-footer__main">
+            <div class="column large-6">
+                <div class="section-intro" data-aos="fade-up">
+                    <h3 class="subhead"></h3>
+
+                    <h1 class="display-1">
+                       По поводу вопросов и предложений
+                    </h1>
+                </div>
+
+                <div class="footer-email-us">
+                    <a href="mailto:#0" class="btn btn--primary h-full-width"></a>
+                </div>
+            </div>
+
+            <div class="column large-5">
+                <div class="footer-contacts">
+                    <div class="footer-contact-block" data-aos="fade-up">
+                        <h5 class="footer-contact-block__header">
+                            Email
+                        </h5>
+                        <p class="footer-contact-block__content">
+                            <a href="mailto:#0">barbaray00@mail.ru</a>
+                        </p>
+                    </div> <!-- end footer-contact-block -->
+                    <br>
+                </div>
+            </div>
+        </div> <!-- end s-footer__main -->
+
+        <div class="row s-footer__bottom">
+            <div class="column large-full ss-copyright">
+                <span>© Copyright Ethos 2019</span>
+                <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+            </div> <!-- end ss-copyright -->
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M12 0l8 9h-6v15h-4v-15h-6z" />
+                    </svg>
+                </a>
+            </div> <!-- end ss-go-top -->
+        </div> <!-- end s-footer__bottom -->
+
+    </footer> <!-- end s-footer -->
+
+
+    <!-- пикчи внизу
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
+                        title="Close (Esc)"></button> <button class="pswp__button pswp__button--share"
+                        title="Share"></button> <button class="pswp__button pswp__button--fs"
+                        title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom"
+                        title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- пикчи внизу-->
+
+
+    <!-- Java 
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
